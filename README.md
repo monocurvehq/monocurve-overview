@@ -10,12 +10,12 @@ One idea per coin. Same terms for everyone. A safety net if it fails.</p>
   <img alt="Network" src="https://img.shields.io/badge/Solana-bonding%20curve-ff6b5a?style=flat-square">
   <img alt="Fee" src="https://img.shields.io/badge/fee-0.90%25%20per%20curve%20trade-ffb38a?style=flat-square">
   <img alt="Launch" src="https://img.shields.io/badge/launch-0.02%20SOL%20deposit%2C%20refunded%20at%20graduation-ffb38a?style=flat-square">
-  <img alt="Status" src="https://img.shields.io/badge/status-devnet%20%C2%B7%20mainnet%20not%20live-3a2a26?style=flat-square">
+  <img alt="Status" src="https://img.shields.io/badge/status-live%20on%20Solana%20mainnet-ff6b5a?style=flat-square">
   <img alt="Repo" src="https://img.shields.io/badge/repo-view%20only-3a2a26?style=flat-square">
 </p>
 
-> **Status:** Monocurve is running on Solana **devnet** for testing. **Mainnet is not live yet.** Everything below
-> describes how the program works today.
+> **Status:** Live on Solana **mainnet** since October 16, 2026. Trade and launch at [monocurve.app](https://monocurve.app).
+> Everything below describes how the program works today.
 
 ---
 
@@ -76,16 +76,17 @@ Every bonding-curve trade pays **0.90%**, split four ways. After a coin graduate
 
 ## Control & upgrades
 
-- **Today (devnet):** the program is upgradeable and has a single admin while it's being tested.
-- **Planned at mainnet launch:** the program's upgrade authority and its admin role move to a **2-of-2 multisig**, so
-  no upgrade or admin change can happen without both signers.
+- The program's upgrade authority and its admin role sit with a **2-of-2 Squads multisig**, so no upgrade or admin
+  change can happen without both signers.
 - Some protections can't be switched off by any admin: the insurance pool has no withdraw path, refunds can't be
   paused, and the launch deposit has a hard upper limit in the program.
 
-## The Monocurve token
+## The Monocurve token ($MONO)
 
-Monocurve's own token will launch first, on Monocurve, under exactly the same rules as every other coin: same curve,
-same fees, same sniper tax, same caps. No presale, no team allocation.
+$MONO launched on Monocurve under exactly the same rules as every other coin: same curve, same fees, same sniper tax,
+same caps. No presale, no team allocation.
+
+**Official CA:** `Bk8DCFMdn8bqoZHt63YKLovN37EBF3C2R3WX9oS6oAW4`
 
 ---
 
