@@ -124,4 +124,4 @@ refund = your_basis × ratio
 - Not "no bots" or "no bundles". These rules make them slower and costlier, and visible.
 - Not "you always get 100% back". Refunds are pro rata to what's in the coin, plus a capped top-up while the pool lasts.
 - TP/SL orders need a keeper to fire them; the fill price isn't guaranteed beyond your slippage. See [ORDERS.md](ORDERS.md).
-- Monocurve is on devnet today. Mainnet is not live yet.
+- Monocurve has been live on Solana mainnet since October 16, 2026.
